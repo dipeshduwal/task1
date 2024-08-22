@@ -4,63 +4,19 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task 1</title>
     <h1>Accessing Array Data into Table</h1>
 </head>
 <body>
     <table>
         <thead>
-        <tr>
-          <th>ID</th>
-          <th>name</th>
-          <th>address</th>
-        </tr>
+       
         </thead>
-        <tbody id="customertable"></tbody>
-        <tr>
-          <td>1</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td></td>
-            <td></td>
-          </tr>
+    
+    
       </table>
 
       <script src="javascript.js">
-        const { customerdata } = require('./javascript.js');
-            buildTable(customerdata));
-    
-            function buildTable(data) {
-                var table = document.getElementById("customertable")
-    
-                for (var i = 0; i < data.length; i++) {
-                    var row = 
-                        `<tr>
-                            <td>${data[i].ID}</td>
-                            <td>${data[i].name}</td>
-                            <td>${data[i].address}</td>
-                        </tr>`
-                    table.innerHTML += row;
-                }
-            }
       </script>
 
    
